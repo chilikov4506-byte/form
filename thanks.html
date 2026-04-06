@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Благодарим! | ChilikovWeb</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Jost', sans-serif;
+    background: #0b1220;
+    color: #e2e8f0;
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .card {
+    background: #0f1f3d;
+    border: 1px solid #1e3a5f;
+    border-top: 3px solid #2563eb;
+    border-radius: 12px;
+    padding: 52px 44px;
+    max-width: 560px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 0 60px rgba(37,99,235,0.1);
+  }
+  .icon {
+    font-size: 3.5rem;
+    margin-bottom: 24px;
+    display: block;
+  }
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 12px;
+    line-height: 1.2;
+  }
+  h1 em {
+    font-style: italic;
+    color: #3b82f6;
+  }
+  .subtitle {
+    font-size: 1rem;
+    font-weight: 300;
+    color: #94a3b8;
+    line-height: 1.8;
+    margin-bottom: 32px;
+  }
+  .steps {
+    background: #0b1220;
+    border: 1px solid #1e293b;
+    border-radius: 8px;
+    padding: 24px;
+    margin-bottom: 32px;
+    text-align: left;
+  }
+  .step {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    margin-bottom: 16px;
+  }
+  .step:last-child { margin-bottom: 0; }
+  .step-num {
+    width: 28px; height: 28px;
+    border-radius: 50%;
+    background: #2563eb;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .step-text h4 { font-size: 0.9rem; font-weight: 500; color: #e2e8f0; margin-bottom: 2px; }
+  .step-text p { font-size: 0.82rem; font-weight: 300; color: #64748b; }
+  .btn-back {
+    display: inline-block;
+    background: #2563eb;
+    color: #fff;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding: 13px 32px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+  .btn-back:hover { background: #3b82f6; }
+  .logo {
+    margin-top: 36px;
+    display: flex; align-items: center; justify-content: center; gap: 10px;
+  }
+  .logo-circle {
+    width: 32px; height: 32px; border-radius: 50%;
+    border: 1.5px solid #2563eb;
+    background: #0b1220;
+    display: flex; align-items: center; justify-content: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 11px; font-weight: 700; color: #3b82f6;
+  }
+  .logo-text { font-family: 'Playfair Display', serif; font-size: 1rem; }
+  .logo-text span:first-child { color: #e2e8f0; font-weight: 400; }
+  .logo-text span:last-child { color: #3b82f6; font-weight: 700; }
+</style>
+</head>
+<body>
+<div class="card">
+  <span class="icon">🎉</span>
+  <h1>Заявката е изпратена <em>успешно!</em></h1>
+  <p class="subtitle">
+    Благодарим ви! Получихме вашето запитване и ще се свържем с вас лично за да обсъдим детайлите.
+  </p>
+
+  <div class="steps">
+    <div class="step">
+      <div class="step-num">1</div>
+      <div class="step-text">
+        <h4>Ще се свържем до 24 часа</h4>
+        <p>Очаквайте обаждане или имейл от hello@chilikovweb.com</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">2</div>
+      <div class="step-text">
+        <h4>Обсъждаме детайлите</h4>
+        <p>Разговор за вашия бизнес, стил и какво точно искате от сайта</p>
+      </div>
+    </div>
+    <div class="step">
+      <div class="step-num">3</div>
+      <div class="step-text">
+        <h4>Примерен дизайн — безплатно</h4>
+        <p>Правим дизайн и го изпращаме. Само ако харесате — продължаваме.</p>
+      </div>
+    </div>
+  </div>
+
+  <a href="https://chilikovweb.com" class="btn-back">← Обратно към сайта</a>
+
+  <div class="logo">
+    <div class="logo-circle">CW</div>
+    <div class="logo-text">
+      <span>chilikov</span><span>web</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
